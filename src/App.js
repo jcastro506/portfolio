@@ -15,9 +15,14 @@ import Projects from './Projects.js'
 
 function App() {
   return (
+    <div style={{ 
+      backgroundImage: `url("https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fbackgrounds%2Fnature%2Fstar&psig=AOvVaw2fGKuQunHyzBnetXTzpJms&ust=1615515204210000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPjYpPKYp-8CFQAAAAAdAAAAABAD")` 
+    }}>
     <Router>
       <div className="App">
+      <Route exact path="/" >
       <Welcome />
+      </Route>
       <NavBar />
         <Switch>
             <Route exact path="/about">
@@ -27,8 +32,9 @@ function App() {
               <Projects />
             </Route>
         </Switch>
-      </div>
+        </div>
     </Router>
+    </div>
   );
 }
 
