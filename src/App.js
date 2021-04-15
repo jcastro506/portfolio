@@ -33,6 +33,8 @@ function App() {
             </Route>
         </Switch>
         </div>
+        <About />
+        <Projects />
     </Router>
     </div>
   );

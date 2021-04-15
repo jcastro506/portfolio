@@ -122,3 +122,36 @@
     opacity: 0;
   }
 }
+
+/* ABOUT -------------------- */ 
+
+.aboutInfo{
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  font-size: 37px;
+  color: white;
+}
+
+.aboutName {
+  padding: 1.5%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.aboutText {
+  padding: 1%;
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cards {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  column-gap: 40px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
